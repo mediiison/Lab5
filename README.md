@@ -124,7 +124,7 @@ for name, model in models.items():
 ### 3.1 Загрузка и просмотр датасета
 
 ```
-=== Первые строки датасета ===
+Первые строки датасета 
    PassengerId  Survived  Pclass  ...   Fare Cabin Embarked
 0            1         0       3  ...   7.25   NaN        S
 1            2         1       1  ...  71.28   C85        C
@@ -132,7 +132,7 @@ for name, model in models.items():
 
 Размер: (891, 12)
 
-=== Пропуски ===
+Пропуски 
 Age         177
 Cabin       687
 Embarked      2
@@ -142,7 +142,7 @@ dtype: int64
 ### 3.2 Датасет после предобработки
 
 ```
-=== Датасет после предобработки ===
+ Датасет после предобработки 
    Survived  Pclass  Sex   Age  SibSp  Parch     Fare  Embarked
 0         0       3    1  22.0      1      0   7.2500         2
 1         1       1    0  38.0      1      0  71.2833         0
@@ -173,7 +173,7 @@ dtype: int64
 #### Детальный отчёт — Random Forest
 
 ```
-==================================================
+
 Модель: Random Forest
               precision    recall  f1-score   support
 
@@ -188,7 +188,7 @@ weighted avg       0.83      0.83      0.83       179
 #### Детальный отчёт — Gradient Boosting (лучшая модель)
 
 ```
-==================================================
+
 Модель: Gradient Boosting
               precision    recall  f1-score   support
 
